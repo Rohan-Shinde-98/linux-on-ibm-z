@@ -24,5 +24,6 @@ git config --global user.name "CHE Bot"
 git init .
 git checkout --orphan gh-pages
 git add ./*
+DATE_TIME=$(date +%Y-%m-%d)
 git commit -m "Automated Built-In Extensions Report $DATE_TIME" -s
-git push -f "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/eclipse-che/che-theia.git" gh-pages
+git push -f "https://$GITHUB_TOKEN@github.com/Rohan-Shinde-98/linux-on-ibm-z.git" gh-pages  
